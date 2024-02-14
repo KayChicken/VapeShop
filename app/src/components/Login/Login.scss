@@ -1,0 +1,54 @@
+
+
+.login-form {
+    margin-top: 15px;
+    color : #fff;
+    display: flex;
+    flex-direction: column;
+
+
+    label {
+        margin-top: 15px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    input {
+        margin-top: 5px;
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        padding : 10px 15px;
+        outline: none;
+    }
+
+    input:focus {
+        border: 2px solid #e1322a ;
+    }
+
+   
+    
+
+    
+
+    button {
+        cursor: pointer;
+        color : #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 15px;
+        border: 2px solid #e1322a;
+        padding : 10px 0px;
+        background-color:  #e1322a;
+        transition: border 0.2s linear;
+    }
+
+    button.disable {
+        background-color: gray;
+        border: 2px solid gainsboro;
+    }
+
+    button:hover {
+        border: 2px solid gainsboro;
+    }
+}

@@ -1,0 +1,188 @@
+.hero {
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+
+
+
+
+
+
+
+}
+
+
+.slider {
+    .slider__slide {
+        width: 100%;
+        height: 300px;
+        background-color: cadetblue;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+.hero {
+    margin-top: 120px;
+
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+        margin-top: 15px;
+        color: #fff;
+        border-radius: 20px;
+        font-weight: 900;
+        background: transparent;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border: 2px solid #fff;
+        max-width: 450px;
+        padding: 10px 0px;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    &__btn:hover {
+        background-color: $beautifulRed;
+
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin-top: 5px;
+        font-size: 1.2rem;
+    }
+
+
+    .tesla-lab {
+        margin-top: 5px;
+        display: block;
+        font-size: 1.3rem;
+        color: #fff;
+    }
+
+}
+
+
+.banner {
+    margin-top: 30px;
+
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+}
+
+
+.choose {
+    margin-top: 120px;
+
+
+
+    h1 {
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+
+
+
+    }
+
+    h1::after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 3px;
+        background-color: red;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+
+    }
+
+    .choose__items {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+}
+
+
+
+
+.flavor-palette {
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+
+
+    h1 {
+        position: relative;
+        text-transform: uppercase;
+
+    }
+
+    h1::after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 3px;
+        background-color: red;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+
+
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &-btn {
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+        margin-top: 15px;
+        color: #fff;
+        border-radius: 20px;
+        font-weight: 900;
+        background: transparent;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border: 2px solid #fff;
+        max-width: 450px;
+        padding: 10px 0px;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &-btn:hover {
+        background-color: $beautifulRed;
+    }
+
+
+}

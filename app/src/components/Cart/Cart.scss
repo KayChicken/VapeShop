@@ -1,0 +1,32 @@
+.cart {
+    margin-top: 40px;
+
+
+    &__inner {
+        display: flex;
+        margin-top: 10px;
+
+
+
+
+
+        
+    }
+
+
+
+
+    &__right {
+        
+        .cart-form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+}
+
+.cart-offer-btn {
+    
+    color : #fff;
+}

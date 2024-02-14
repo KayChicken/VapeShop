@@ -1,0 +1,123 @@
+.full-item {
+
+
+    &__container {
+        display: flex;
+    }
+
+
+
+    &__settings {
+        margin-top: 10px;
+        
+        
+
+       
+
+
+
+    }
+
+    &__attribute {
+        margin-top: 15px;
+    }
+
+    &__values {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        row-gap: 15px;
+        column-gap: 5px;
+
+
+        .attribute-value {
+            
+            cursor: pointer;
+            font-weight: 900;
+            color : #fff;
+            border-radius: 15px;
+            padding: 10px 15px;
+            border: 2px solid #e1322a;
+            transition: background 0.2s linear;
+            background-color: transparent;
+            
+            
+        }
+
+        .attribute-value.active {
+            background-color: #e1322a;
+        }
+
+        .attribute-value.not-active {
+            background-color: gainsboro;
+        }
+       
+
+
+    }
+   
+
+    .scale {
+        margin-top: 15px;
+        display: inline-block;
+        border: 2px solid #e1322a;
+        border-radius: 10px;
+        padding : 10px 15px;
+        color : #fff;
+        transition: background 0.2s linear;
+            
+    }
+
+    .scale:hover {
+        background: #e1322a;
+    }
+
+
+    &__add {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+
+        svg {
+            cursor: pointer;
+            fill: #fff;
+            color : #fff;
+        }
+
+    }
+
+
+    &__count {
+        background: inherit;
+        width: 100px;
+        font-size: 1rem;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+}
+
+.item-add-cart {
+    color : #fff;
+    font-weight: 800;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid $beautifulRed;
+    background-color: $beautifulRed;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    transition: border-color 0.2s linear;
+}
+
+
+.item-add-cart:hover {
+    border-color: #fff;
+}
+
+

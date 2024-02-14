@@ -1,0 +1,78 @@
+.shop-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+
+    &__title {
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-top: 5px;
+        font-size: 1.1rem;
+        font-weight: 900;
+        color: #fff;
+
+    }
+
+    
+
+    &__composition {
+        color : #fff;
+        font-size: 0.95rem;
+    }
+
+
+
+
+
+    &__img {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.shop-item::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgb(0 0 0 / 50%));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: -3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.2s linear;
+    
+}
+
+.shop-item:hover::after {
+    opacity: 1;
+}
+
+.shop-item:hover .shop-item__title {
+    color : red;
+}

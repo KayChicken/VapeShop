@@ -1,0 +1,78 @@
+@import './variables.scss';
+@import './fonts.scss';
+@import '../components/Header/Header.scss';
+@import '../components/Main/Main.scss';
+@import '../components/InfoItem/InfoItem.scss';
+@import '../components/PalleteItem/PalleteItem.scss';
+@import '../components/Footer/Footer.scss';
+@import '../components/Category/Catalog.scss';
+@import '../components/ShopItem/ShopItem.scss';
+@import '../components/Cart/Cart.scss';
+@import '../components/CartOffer/CartOffer.scss';
+@import '../components/FullItem/FullItem.scss';
+@import '../components/Authorization/Authorization.scss';
+@import '../components/Login/Login.scss';
+@import '../components/Registration/Registration.scss';
+@import '../components/Scale/Scale.scss';
+@import '../components/Cart/CartItem/CartItem.scss';
+@import '../components/AdminComponents/AdminOrders/AdminOrders.scss';
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: $backgroundColor;
+    color: $colorFonts;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+.link {
+    position: relative;
+    transition: color 0.2s linear;
+}
+
+
+.link:hover {
+    color : red;
+}
+
+.under-line::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: red;
+    bottom: -5px;
+    left: 0;
+    transition: transform 0.3s;
+}
+
+
+
+.under-line:hover::after {
+    transform: scaleX(1);
+}

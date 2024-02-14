@@ -1,0 +1,20 @@
+.registration-form {
+    margin-top: 10px;
+    color : black;
+    display: flex;
+    flex-direction: column;
+
+
+    button {
+        margin-top: 15px;
+    }
+
+    
+}
+
+
+.error-line {
+    color : rgb(207, 46, 46);
+    font-weight: 700;
+    font-size: 1rem;
+}
