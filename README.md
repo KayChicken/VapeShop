@@ -1,4 +1,5 @@
 Vape Shop
 
 
-![Снимокc](https://github.com/KayChicken/VapeShop/assets/105989236/3e3e4e6a-74a2-47d4-8ce3-231918303bd5)
+
+![Снимок](https://github.com/KayChicken/VapeShop/assets/105989236/68d0e475-105a-4ddf-8ff0-4d169c6f1883)
